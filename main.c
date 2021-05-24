@@ -1,12 +1,13 @@
 #include "f1.c"
 #include<stdio.h>
-int *func();
+
 int main()
 {
 int *a;
-a=func();
+a=fun();
+printf("%d\n",*a);
 *a=21;
-printf("%d\n",*(func()));
+printf("%d\n",*(fun()));
 
 return 0;
 }
